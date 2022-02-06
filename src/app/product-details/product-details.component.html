@@ -1,0 +1,18 @@
+<div class="container">
+    <h3>Product Details</h3>
+    <div class="row border border-2 p-3 text-left" *ngIf="productDetail != null">
+
+        <div class="col">
+            <p>Id: </p>
+            <p>Name: </p>
+            <p>Current Price:</p>
+            <p>Quantity: </p>
+        </div>
+        <div class="col">
+            <p>{{productDetail.id}}</p>
+            <p>{{productDetail.name}}</p>
+            <p>{{productDetail.price}}</p>
+            <p>{{productDetail.quantity}}</p>
+        </div>
+    </div>
+</div>
